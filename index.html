@@ -1,63 +1,330 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReDiary - Login or Sign Up</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <!----------------------- Main Container -------------------------->
-        <div class="container d-flex justify-content-center align-items-center min-vh-100">
-            <!----------------------- Login Container -------------------------->
-               <div class="row border rounded-5 p-3 bg-white shadow box-area">
-            <!--------------------------- Left Box ----------------------------->
-               <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #000000;">
-                   <div class="featured-image mb-3">
-                    <img src="images/transparent book.png" class="img-fluid" style="width: 300px;">
-                   </div>
-                   <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">ReDiary</p>
-                   <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;"><h3>A powerful AI Powered Journal!</h3></small>
-               </div> 
-            <!-------------------- ------ Right Box ---------------------------->
-                
-               <div class="col-md-6 right-box">
-                  <div class="row align-items-center">
-                        <div class="header-text mb-4">
-                             <h2>Welcome!</h2>
-                             <p>Sign in and start Journaling.</p>
-                        </div>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
-                        </div>
-                        <div class="input-group mb-1">
-                            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
-                        </div>
-                        <div class="input-group mb-5 d-flex justify-content-between">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="formCheck">
-                                <label for="formCheck" class="form-check-label text-secondary"><small>Remember Me</small></label>
-                            </div>
-                            <div class="forgot">
-                                <small><a href="#">Forgot Password?</a></small>
-                            </div>
-                        </div>
-                        <div class="input-group mb-3">
-                            <button class="btn btn-lg btn-primary w-100 fs-6">Login</button>
-                        </div>
-                        <div class="input-group mb-3">
-                            <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/book.png" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
-                        </div>
-                        <div class="row">
-                            <small>Don't have account? <a href="#">Sign Up</a></small>
-                        </div>
-                  </div>
-               </div> 
-              </div>
-            </div>
-        
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ali's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.png);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/PERSONAL.PNG);"></div>
+							<h1><span>Ali Al-Qahtani</span></h1>
+							<h3><span>Computer Scientist / Video Editor</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://x.com/ali12n8"><i class="icon-twitter2"></i></a></li>
+									<li><a href="https://www.instagram.com/ali12n8/"><i class="icon-instagram"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/ali12n8/"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="icon-youtube"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="color: #fff;">About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Ali Al-Qahtani</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+974-66616003</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">Ali12N8@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">www.ali12n8.com</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">If you know this, you're special!</span></li>
+					</ul>
+
+				</div>
+				
+				<div class="col-md-8">
+					<h2 style="color: #fff;">Quick lil Summary</h2>
+					<p style="color: #fff;">Just a chill dude living in qatar. I study Computer Science and i have no goals in life.</p>
+					<p style="color: #fff;"> I have a profound love for video editing, where I blend art with technology to create visually compelling stories. This creative pursuit has honed my eye for detail and my ability to convey messages in engaging ways.
+
+						Recently, I've delved into the dynamic world of web development. This new venture is a thrilling extension of my skills, allowing me to weave together my programming knowledge with my artistic inclinations. I'm excited about the endless possibilities this field offers, from developing user-friendly websites to creating interactive web applications.</p>
+					<p>
+					
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="color: #fff;">My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>The Sacred Timeline</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #fff;">Undergraduate</h3>
+									<span class="company">Liverpool John Moores University - 2020 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>Pursuing a B.Sc.(Hons) in Computer Science at Liverpool John Moores University in Doha, Qatar since September 2020, excelling in key areas like Web Development, Database Systems, Applied Data Science, Object Oriented Development, Advanced Topics in AI, Discrete Mathematics, and Knowledge Based Systems.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #fff;">National Service</h3>
+									<span class="company">National Service - 2018 - 2019</span>
+								</div>
+								<div class="timeline-body">
+									<p>•	Completed a one-year comprehensive training program as part of Batch 11.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #fff;">High School</h3>
+									<span class="company">AlMaha Academy - 2016 - 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>Attended Al-Maha Academy School in Doha, Qatar from September 2016 to June 2018, where I completed AS Levels in Travel and Tourism, and Arabic as a First Language, and achieved 5 passes in IGCSE, including key subjects like Mathematics and English.</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Experience</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #fff;">AI-Powered Web application</h3>
+									<span class="company">LJMU/OUC - 2023 - 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>Currently working on an AI-Powered Journal Web Application for my Graduation Project in Doha, Qatar (09/2023 – 04/2024). This initiative addresses the lack of AI-driven features in digital journaling. It involves extensive research and the development of a web application, as described in my ongoing 20,000-word dissertation. The project aims to deliver an enhanced user experience through advanced AI interactivity and personalization, aligning with modern tech industry standards.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #fff;">Bachelors Degree Projects</h3>
+									<span class="company">Liverpool John Moores University - 2020 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>In my experience, I have developed a diverse skill set in computer science, encompassing web development, database systems, applied data science, object-oriented development, advanced AI topics, discrete mathematics, and knowledge-based systems.</p>
+								</div>
+							</div>
+						</li>
+					
+					
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Skills & Interests</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-code"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Object Oriented Programming</h3>
+								<p>Languages: Python, Java, Javascript</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-code"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Development</h3>
+								<p>creating responsive websites, leveraging skills in HTML, CSS, JavaScript, and various frameworks.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bold"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Languages</h3>
+								<p>Written and oral communication:
+									Fluent in English (IELTS 7.0) and Arabic.
+									</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
 
-</body>
+				<div class="row">
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-play"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Video Editor</h3>
+								<p>Proficient in using After Effects with various Plugins</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-camera"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Photography</h3>
+								<p>particular interest in capturing dynamic time-lapse videos.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-cogs"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Custom PC Assembly</h3>
+								<p>I have honed practical skills in assembling and optimizing custom PCs.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Thank you for reading :) <br>This little website is experimental and is only there for practice!</a></p>
+				</div>
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2></h2>
+					<p></p>
+					<p><a href="#" class="btn btn-default btn-lg">Contact Me</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
